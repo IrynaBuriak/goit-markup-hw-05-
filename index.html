@@ -57,9 +57,19 @@
       <section class="hero-header">
         <div class="hero-block container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button data-modal-open type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
+
+      <div class="modal-wrap is-hidden" data-modal>
+        <div class="modal-window">
+          <button data-modal-close type="button" class="close-modal">
+            <svg class="icon-close-btn" width="18" height="18">
+              <use xlink:href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
 
       <section class="section section-advantages">
         <div class="container advantages">
@@ -111,12 +121,15 @@
           <ul class="projects-list">
             <li class="projects-item">
               <img src="./images/img.jpg" alt="Людина набирає текст на клавіатурі" width="370" />
+              <p class="projects-desc">Десктопні додатки</p>
             </li>
             <li class="projects-item">
               <img src="./images/box2.jpg" alt="Людина тримає телефон в руці" width="370" />
+              <p class="projects-desc">Мобільні додатки</p>
             </li>
             <li class="projects-item">
               <img src="./images/box3.jpg" alt="Людина тримає планшет в руці." width="370" />
+              <p class="projects-desc">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -331,16 +344,6 @@
         </div>
       </section>
     </main>
-
-    <div class="modal-wrap is-hidden" data-modal>
-      <div class="modal-window">
-        <button data-modal-close type="button" class="close-modal">
-          <svg class="icon-close-btn" width="18" height="18">
-            <use xlink:href="./images/icons.svg#icon-close-btn"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
 
     <footer class="footer-contacts">
       <div class="container footer-block">
