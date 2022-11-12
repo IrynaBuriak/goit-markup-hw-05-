@@ -222,7 +222,6 @@ ul {
 }
 
 /*advantages section*/
-
 .section-advantages {
     padding-bottom: 0;
 }
@@ -532,7 +531,6 @@ ul {
 }
 
 .work-item {
-    display: flex;
     flex-direction: column;
     border-top: none;
 }
