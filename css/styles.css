@@ -498,7 +498,6 @@ ul {
 
 .work-type-list {
     display: flex;
-    margin-bottom: 20px;
 }
 .work-filter:not(:last-child) {
     margin-right: 8px;
